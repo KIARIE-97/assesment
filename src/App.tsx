@@ -5,7 +5,7 @@ import type { Tdata, FilterType } from "./types/dataT";
 import FilterTags from "./components/Filterbutton";
 
 function App() {
-	const [jobs, setJobs] = useState<Tdata[]>(jobsData);
+	const [jobs, ] = useState<Tdata[]>(jobsData);
   const [selectedFilters, setSelectedFilters] = useState<FilterType>(new Set());
 
 
